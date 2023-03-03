@@ -3,7 +3,7 @@ import axios from 'axios';
 const instance = axios.create({
   baseURL:
     process.env.NODE_ENV === 'production'
-      ? 'production url'
+      ? '04-burger-queen-api.vercel.app'
       : 'http://localhost:3000',
 });
 
