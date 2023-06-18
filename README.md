@@ -105,59 +105,7 @@ el concepto de _estado de pantalla_, y como cada cambio sobre el estado se va
 a ir reflejando en la interfaz (por ejemplo, cada vez que agregamos un _producto_
 a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
 
-## 3. Objetivos de aprendizaje
-
-> ℹ️ Esta sección será auomáticamente generada en el idioma pertinente, a partir
-> de los objetivos de aprendizaje declarados en [`project.yml`](./project.yml),
-> al crear el repo del proyecto para un cohort en particular usando
-> [`./scripts/create-cohort-project.js`](../../scripts#create-cohort-project-coaches).
->
-> Acá puedes ver una [lista de todos los objetivos de aprendizaje](../../learning-objectives/data.yml)
-> que contempla nuestra currícula.
-
-## 4. Consideraciones
-
-Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
-API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
-este terminada para empezar a codear, puedes utilizar herramientas
-como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
-o [mockoon](https://mockoon.com) para mockear la API.
-
-El rango de tiempo estimado para completar el proyecto es de 3 a 5 Sprints.
-
-Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
-hasta la historia que puedas en el tiempo especificado.
-
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6+), HTML y CSS y empaquetada de manera automatizada.
-
-En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://reactjs.org/) o
-[Angular](https://angular.io/)).
-
-La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
-_tablet_, pero **no queremos una app nativa**, sino una web app que sea
-**mobile-first**.
-
-Necesitamos pensar bien en el aspecto UX de de quienes van a tomar los pedidos,
- el tamaño y aspecto de los botones, la visibilidad del estado actual del
- pedido, etc.
-
-La aplicación desplegada debe tener 80% o más el las puntuaciones de
-Performance, Progressive Web App, Accessibility y Best Practices de Lighthouse.
-
-La aplicación debe hacer uso de `npm-scripts` y contar con scripts `start`,
-`test`, `build` y `deploy`, que se encarguen de arrancar, correr las pruebas,
-empaquetar y desplegar la aplicación respectivamente.
-
-Los tests unitarios deben cubrir un mínimo del 90% de _statements_, _functions_,
-_lines_ y _branches_.
-
-Por otro lado, deberás definir la estructura de carpetas y archivos que consideres
-necesaria. Puedes guiarte de las convenciones del _framework_ elegido. Por ende,
-los _tests_ y el _setup_ necesario para ejecutarlos, serán hechos por ti.
-
-## 5. Criterios de aceptación del proyecto
+## 3. Criterios de aceptación del proyecto
 
 ### Definición del producto
 
@@ -181,15 +129,6 @@ Lo que debe ocurrir para que se satisfagan las necesidades del usuario.
   con la información ingresada.
 * Ingresar al sistema de pedidos si las crendenciales son correctas.
 
-##### Definición de terminado
-
-Lo acordado que debe ocurrir para decir que la historia está terminada.
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ***
 
 #### [Historia de usuario 2] Mesero/a debe poder tomar pedido de cliente/a
@@ -209,15 +148,6 @@ Lo que debe ocurrir para que se satisfagan las necesidades del usuario
 * Enviar pedido a cocina (guardar en alguna base de datos).
 * Se ve y funciona bien en una _tablet_
 
-##### Definición de terminado
-
-Lo acordado que debe ocurrir para decir que la historia está terminada.
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ***
 
 #### [Historia de usuario 3] Jefe de cocina debe ver los pedidos
@@ -233,13 +163,6 @@ que un pedido está listo para servirlo a un clientx.
 * Ver el tiempo que tomó prepara el pedido desde que llegó hasta que se
   marcó como completado.
 
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ***
 
 #### [Historia de usuario 4] Meserx debe ver pedidos listos para servir
@@ -251,15 +174,6 @@ rápidamente a lxs clientxs que las hicieron.
 
 * Ver listado de pedido listos para servir.
 * Marcar pedidos que han sido entregados.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-* Los datos se deben mantener íntegros, incluso después de que un pedido ha
-  terminado. Todo esto para poder tener estadísticas en el futuro.
 
 ***
 
@@ -275,13 +189,6 @@ la plataforma para mantener actualizado la informacion de mis trabajadorxs.
 * Eliminar trabajadoxs.
 * Actualizar datos de trabajadorxs.
 
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ***
 
 #### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
@@ -295,34 +202,3 @@ para mantener actualizado el menú.
 * Agregar productos.
 * Eliminar productos.
 * Actualizar datos de productos.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
-***
-
-## 6. Pistas / Tips
-
-### Frameworks / libraries
-
-* [React](https://reactjs.org/)
-* [Angular](https://angular.io/)
-
-### Herramientas
-
-* [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [Babel](https://babeljs.io/)
-* [webpack](https://webpack.js.org/)
-* [json-server](https://www.npmjs.com/package/json-server)
-* [mockoon](https://mockoon.com)
-* [nock](https://github.com/nock/nock)
-
-### PWA
-
-* [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
-* [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
-* [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
