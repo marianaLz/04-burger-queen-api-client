@@ -4,10 +4,7 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones](#4-consideraciones)
-* [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
-* [6. Pistas / tips](#6-pistas--tips)
+* [3. Criterios de aceptación del proyecto](#3-criterios-de-aceptación-del-proyecto)
 
 ***
 
